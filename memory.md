@@ -10,7 +10,7 @@
 - Movimiento finito, vistas previas silenciadas, reproductor con controles y movimiento reducido.
 
 ## Completado
-- Git inicializado en `main` y repositorio privado creado por solicitud del usuario: https://github.com/andresdlv07/MediaKit-Fiona. Se excluyen dependencias y metadatos temporales de descarga; este respaldo no publica el sitio.
+- Git inicializado en `main` y avances subidos a https://github.com/andresdlv07/MediaKit-Fiona. El usuario pidió cambiar el repositorio a público el 4 de octubre de 2026; acceso sin autenticación confirmado. Se excluyen dependencias y metadatos temporales de descarga; el sitio navegable sigue siendo local.
 - Investigación y preguntas documentadas, respuestas registradas en context.md.
 - Cinco skills locales y biblioteca comparativa de 74 DESIGN.md instaladas. Esta implementación aplica Taste, Impeccable, Humanizer y Web Design Guidelines. Image to Code se reserva para referencias aprobadas.
 - Fotos de Walery y tres videos aportados obtenidos desde el navegador, optimizados y con procedencia en assets/provenance.md.

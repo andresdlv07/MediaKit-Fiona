@@ -4,7 +4,7 @@ Versión local ES/EN con fotos reales, tres videos, composición editorial y con
 
 ## Repositorio
 
-Repositorio privado: https://github.com/andresdlv07/MediaKit-Fiona. Rama principal: `main`.
+Repositorio público: https://github.com/andresdlv07/MediaKit-Fiona. Rama principal: `main`.
 
 Incluye código, medios locales, documentación, skills y evidencia de pruebas. Las dependencias instaladas y los metadatos temporales de descarga se excluyen mediante `.gitignore`. Para instalar las herramientas de desarrollo: `npm ci`.
 
