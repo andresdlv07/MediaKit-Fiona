@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex"><title>Editar propuesta · Fiona</title>
+  <link rel="icon" href="favicon.svg"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="editor.css">
+  <script type="module" src="editor.js"></script>
+</head>
+<body class="editor-page">
+  <header class="editor-header"><a class="wordmark" href="/">fiona.</a><a href="/" target="_blank" rel="noopener">Ver propuesta ↗</a></header>
+  <main class="editor-main">
+    <h1>Elegimos juntas.</h1>
+    <p class="editor-intro">Cambia fotos, videos y cifras de muestra. Los cambios se guardan en este navegador; puedes exportarlos para incorporarlos al proyecto.</p>
+    <form id="editor-form">
+      <section aria-labelledby="photos-title"><h2 id="photos-title">Fotografías</h2><p>Usa una dirección HTTPS de imagen o una ruta dentro de <code>assets/</code>. Puedes volver a las fotos de esta sesión cuando quieras.</p><div id="photo-fields" class="photo-fields"></div></section>
+      <section aria-labelledby="videos-title"><h2 id="videos-title">Videos seleccionados</h2><p>Enlace directo al archivo MP4 y a su portada. Un enlace a un Reel no sustituye el archivo de video.</p><div id="video-fields"></div></section>
+      <section aria-labelledby="metrics-title"><h2 id="metrics-title">Métricas pendientes</h2><p>La propuesta inicial incluye los 777 seguidores consultados en Instagram el 4 de octubre de 2026. Al editar y guardar las métricas, todas se rotulan como ficticias. Para incorporar Insights reales necesitamos plataforma y período.</p><div class="metric-fields"><label>Seguidores en Instagram<input name="metric-instagram" type="number" min="0" max="1000000000" step="1" autocomplete="off" required></label><label>Alcance en 30 días<input name="metric-reach" type="number" min="0" max="1000000000" step="1" autocomplete="off" required></label><label>Interacción promedio (%)<input name="metric-engagement" type="number" min="0" max="100" step="0.1" autocomplete="off" required></label></div><label class="check-label"><input name="metrics-hidden" type="checkbox"> Ocultar la sección de métricas</label></section>
+      <div class="editor-actions"><button class="solid-button" type="submit">Guardar cambios</button><button class="outline-button" id="export" type="button">Exportar selección</button><button class="text-button" id="reset" type="button">Restaurar propuesta inicial</button><button class="text-button" id="undo" type="button" hidden>Deshacer restauración</button></div>
+      <p id="editor-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "fiona-media-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/server.mjs",
+    "check": "node --check app.js && node --check content.js"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/win32-x64": "^4.1.0"
+  }
+}

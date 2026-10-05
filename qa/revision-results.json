@@ -1,0 +1,101 @@
+{
+  "checks": [
+    {
+      "name": "ribbon moves right to left",
+      "pass": true
+    },
+    {
+      "name": "seamless infinite ribbon",
+      "pass": true
+    },
+    {
+      "name": "ribbon pause control",
+      "pass": true
+    },
+    {
+      "name": "first person archive",
+      "pass": true
+    },
+    {
+      "name": "nine actual linked covers",
+      "pass": true
+    },
+    {
+      "name": "logo and covers load",
+      "pass": true
+    },
+    {
+      "name": "film strip navigation",
+      "pass": true
+    },
+    {
+      "name": "services open on hover",
+      "pass": true
+    },
+    {
+      "name": "services open for keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "gallery arrows and counter removed",
+      "pass": true
+    },
+    {
+      "name": "photos advance automatically",
+      "pass": true
+    },
+    {
+      "name": "gallery pause works",
+      "pass": true
+    },
+    {
+      "name": "English archive in first person",
+      "pass": true
+    },
+    {
+      "name": "compact desktop sections",
+      "pass": true
+    },
+    {
+      "name": "no overflow at 360px",
+      "pass": true
+    },
+    {
+      "name": "no overflow at 390px",
+      "pass": true
+    },
+    {
+      "name": "no overflow at 768px",
+      "pass": true
+    },
+    {
+      "name": "no overflow at 935px",
+      "pass": true
+    },
+    {
+      "name": "no overflow at 1440px",
+      "pass": true
+    },
+    {
+      "name": "mobile first service opens before last",
+      "pass": true
+    },
+    {
+      "name": "mobile sequence keeps all services open",
+      "pass": true
+    },
+    {
+      "name": "reduced motion stops ribbon",
+      "pass": true
+    },
+    {
+      "name": "reduced motion exposes all mobile services",
+      "pass": true
+    },
+    {
+      "name": "no runtime or resource errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F4EFE8">
+  <meta name="description" content="Fiona Marcela. Creadora de contenido de maquillaje, skincare, lifestyle y UGC en Maracaibo, Venezuela.">
+  <title>Fiona Marcela — Beauty, lifestyle & UGC</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/instrument-serif-normal-400.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/dm-sans-normal-400.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-copy="skip">Saltar al contenido</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Fiona Marcela, inicio" translate="no">fiona<span class="wordmark-dot">.</span></a>
+    <nav class="main-nav" id="main-nav" aria-label="Principal">
+      <a href="#work" data-copy="work">Ver contenido</a>
+      <a href="#about" data-copy="about">Sobre mí</a>
+      <a class="nav-contact" href="#contact" data-copy="contact">Hablemos</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switch" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true" lang="es">ES</button><span aria-hidden="true">/</span><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+      <button class="menu-toggle icon-button" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menú"><span class="menu-lines" aria-hidden="true"></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title"><span class="hero-greeting" data-copy="greeting">Holiss, soy</span><span class="hero-name" translate="no">Fiona<span class="hero-period">.</span></span></h1>
+        <p class="hero-line" data-copy="heroLine">Maquillaje, skincare y un poco de mi vida.</p>
+        <a class="text-link hero-link" href="#work"><span data-copy="work">Ver contenido</span><svg class="icon" aria-hidden="true"><use href="#arrow-down"/></svg></a>
+      </div>
+      <div class="hero-composition">
+        <button class="hero-portrait photo-open" data-photo="hero" aria-label="Ver fotografía de Fiona Marcela">
+          <img data-image="hero" src="assets/photos/portrait.webp" alt="Fiona sonríe sosteniendo un labial rosa, en la sesión de Brilla" width="640" height="821" fetchpriority="high">
+        </button>
+        <div class="hero-note" aria-hidden="true">a little<br><em>beauty moment</em></div>
+        <button class="hero-detail photo-open" data-photo="detail" aria-label="Ver fotografía de los labiales">
+          <img data-image="detail" src="assets/photos/lip-detail.webp" alt="Fiona muestra cuatro labiales rosados a la cámara" width="640" height="545">
+        </button>
+        <span class="hero-spark" aria-hidden="true"><svg viewBox="0 0 80 80"><path d="M40 2C40 26 26 40 2 40c24 0 38 14 38 38 0-24 14-38 38-38C54 40 40 26 40 2Z"/></svg></span>
+        <span class="portrait-caption" translate="no">Fiona Marcela</span>
+      </div>
+      <div class="hero-footer"><span data-copy="location">Maracaibo, Venezuela</span><span data-copy="scroll">Hay más de mí aquí abajo</span><svg class="icon" aria-hidden="true"><use href="#arrow-down"/></svg></div>
+    </section>
+
+    <div class="ribbon">
+      <div class="ribbon-track" aria-hidden="true">
+        <div class="ribbon-unit"><span>makeup</span><svg class="icon"><use href="#star"/></svg><em>skincare</em><svg class="icon"><use href="#star"/></svg><span>lifestyle</span><svg class="icon"><use href="#star"/></svg><em>UGC</em><svg class="icon"><use href="#star"/></svg></div>
+        <div class="ribbon-unit"><span>makeup</span><svg class="icon"><use href="#star"/></svg><em>skincare</em><svg class="icon"><use href="#star"/></svg><span>lifestyle</span><svg class="icon"><use href="#star"/></svg><em>UGC</em><svg class="icon"><use href="#star"/></svg></div>
+      </div>
+      <button class="ribbon-toggle icon-button" type="button" aria-label="Pausar cinta" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#pause"/></svg></button>
+    </div>
+
+    <section class="work section-pad" id="work" aria-labelledby="work-title">
+      <h2 id="work-title"><span data-copy="filmTitle">Dale play.</span><em data-copy="filmAccent">Conóceme creando.</em></h2>
+      <div class="work-controls"><div class="filters" role="group" aria-label="Filtrar videos">
+        <button type="button" data-filter="all" aria-pressed="true" data-copy="all">Todo</button>
+        <button type="button" data-filter="beauty" aria-pressed="false" data-copy="beauty">Beauty</button>
+        <button type="button" data-filter="recommendations" aria-pressed="false" data-copy="recommendations">Recomendaciones</button>
+        <button type="button" data-filter="vlogs" aria-pressed="false" data-copy="vlogs">Vlogs</button>
+      </div><span class="filter-count" aria-live="polite">3 videos</span></div>
+      <div class="reel-grid" id="reel-grid"></div>
+      <details class="archive"><summary><span data-copy="archive">Más de mis videos</span><svg class="icon" aria-hidden="true"><use href="#plus"/></svg></summary><div class="archive-toolbar"><span data-copy="archiveSource">En mi Instagram</span><div><button type="button" class="icon-button" id="archive-previous" aria-label="Portadas anteriores"><svg class="icon" aria-hidden="true"><use href="#arrow-left"/></svg></button><button type="button" class="icon-button" id="archive-next" aria-label="Más portadas"><svg class="icon" aria-hidden="true"><use href="#arrow-right"/></svg></button></div></div><div id="archive-links"></div></details>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="about-composition">
+        <button class="about-image photo-open" data-photo="smile" aria-label="Ver fotografía de Fiona con un producto de skincare"><img data-image="smile" src="assets/photos/smile.webp" alt="Fiona sonríe con un producto de skincare de Brilla" width="640" height="960" loading="lazy"></button>
+        <button class="about-detail photo-open" data-photo="skincare" aria-label="Ver fotografía de Fiona aplicando skincare"><img data-image="skincare" src="assets/photos/skincare.webp" alt="Fiona aplica un producto de skincare en su mejilla" width="640" height="960" loading="lazy"></button>
+      </div>
+      <div class="about-copy"><h2 id="about-title"><span data-copy="quoteStart">El maquillaje resalta</span><em data-copy="quoteEnd">lo que hay en mí.</em></h2><p data-copy="quoteBody">Así lo siento yo. Me gusta probar, compartir y recomendar con confianza.</p><span class="signature" translate="no">Fiona Marcela</span></div>
+    </section>
+
+    <section class="brilla" aria-labelledby="brilla-title">
+      <div class="brilla-copy"><h2 id="brilla-title"><span data-copy="brillaStart">Mi historia empezó</span><em data-copy="brillaEnd">con Brilla.</em></h2><p data-copy="brillaBody">Mi tienda de maquillaje fue mi primer espacio para crear. Ahí comenzó mucho de lo que hoy comparto como Fiona.</p><div class="brilla-identity"><img class="brilla-logo" src="assets/photos/brilla-logo.jpg" alt="Logo de Brilla" width="150" height="150" loading="lazy"><a class="text-link" href="https://www.instagram.com/brillastore.ve/" target="_blank" rel="noopener noreferrer"><span data-copy="brillaLink">Visita mi tienda</span><svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div><span class="brilla-project" data-copy="project">Mi proyecto propio</span></div>
+      <div class="brilla-gallery"><button class="brilla-photo photo-open" data-photo="brilla" aria-label="Ver fotografía de Fiona con productos de Brilla"><img data-image="brilla" src="assets/photos/brilla.webp" alt="Fiona muestra una máscara de pestañas y una rizadora de Brilla" width="640" height="888" loading="lazy"></button><button type="button" class="gallery-toggle icon-button" aria-label="Pausar fotos" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#pause"/></svg></button></div>
+    </section>
+
+    <section class="services section-pad" aria-labelledby="services-title"><h2 id="services-title"><span data-copy="servicesStart">Tu marca,</span><em data-copy="servicesEnd">mi manera de contarla.</em></h2><div class="services-body"><button class="service-photo photo-open" data-photo="products" aria-label="Ver fotografía de productos de maquillaje"><img data-image="products" src="assets/photos/products.webp" alt="Fiona sostiene distintos productos de maquillaje de Brilla" width="640" height="1058" loading="lazy"></button><div class="service-list" id="service-list"></div></div><p class="service-note" data-copy="serviceNote">Cada colaboración se cotiza según el proyecto. También estoy abierta a canjes.</p></section>
+
+    <section class="metrics section-pad" id="metrics" aria-labelledby="metrics-title"><h2 id="metrics-title"><span data-copy="metricStart">Mi comunidad</span><em data-copy="metricEnd">en cifras.</em></h2><p class="metric-notice" data-copy="metricNotice">Datos de muestra · Cifras ficticias para esta propuesta. Insights reales pendientes.</p><div class="metric-values" id="metric-values"></div></section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title"><h2 id="contact-title"><span data-copy="contactStart">¿Hacemos algo</span><em data-copy="contactEnd">bonito?</em></h2><p data-copy="contactBody">Cuéntame qué tienes en mente.</p><a class="contact-cta" id="whatsapp-cta" href="https://wa.me/584120603827" target="_blank" rel="noopener noreferrer"><span data-copy="message">Escríbeme</span><svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a><div class="social-links"><a id="instagram-link" href="https://www.instagram.com/soyfionamarcela/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#instagram"/></svg><span><span class="social-name">Instagram</span><span translate="no">@soyfionamarcela</span></span><svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a><a id="tiktok-link" href="https://www.tiktok.com/@soyfionamarcela" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#tiktok"/></svg><span><span class="social-name">TikTok</span><span translate="no">@soyfionamarcela</span></span><svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a><a id="whatsapp-link" href="https://wa.me/584120603827" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#whatsapp"/></svg><span><span class="social-name">WhatsApp</span><span translate="no">04120603827</span></span><svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#home" translate="no">fiona.</a><p data-copy="rights">Fotos de Walery Fotografía · Mi contenido y el de Brilla</p><button id="motion-toggle" type="button"><svg class="icon" aria-hidden="true"><use href="#pause"/></svg><span data-copy="motionPause">Pausar animaciones</span></button></footer>
+
+  <dialog id="video-dialog" class="media-dialog" aria-labelledby="video-title"><div class="dialog-bar"><h2 id="video-title"></h2><button class="icon-button dialog-close" aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button></div><div class="player-wrap"><video id="full-video" controls playsinline preload="metadata"></video><p class="video-error" hidden></p></div><div class="dialog-bottom"><p id="video-description"></p><span data-copy="translationNote">Video original en español</span><a id="video-original" target="_blank" rel="noopener noreferrer"><span data-copy="original">Ver en Instagram</span><svg class="icon" aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div></dialog>
+  <dialog id="photo-dialog" class="photo-dialog" aria-label="Fotografía de Fiona"><button class="icon-button dialog-close" aria-label="Cerrar"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button><img id="full-photo" alt="" width="640" height="960"><p class="photo-error" hidden></p></dialog>
+
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow-up-right" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 3v18m-7-7 7 7 7-7"/></symbol>
+    <symbol id="arrow-right" viewBox="0 0 24 24"><path d="M3 12h18m-7-7 7 7-7 7"/></symbol>
+    <symbol id="arrow-left" viewBox="0 0 24 24"><path d="M21 12H3m7-7-7 7 7 7"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7Z"/></symbol>
+    <symbol id="pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol>
+    <symbol id="plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path d="M12 2c0 6-4 10-10 10 6 0 10 4 10 10 0-6 4-10 10-10-6 0-10-4-10-10Z"/></symbol>
+    <symbol id="instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".7"/></symbol>
+    <symbol id="tiktok" viewBox="0 0 24 24"><path d="M14 3v12a5 5 0 1 1-5-5m5-7c0 4 3 6 7 6V6c-3 0-5-1-5-3h-2Z"/></symbol>
+    <symbol id="whatsapp" viewBox="0 0 24 24"><path d="M21 11.7a9 9 0 0 1-13.5 7.8L3 21l1.5-4.5A9 9 0 1 1 21 11.7Z"/><path d="M8 7c-2 2 1 7 4 8s5-1 4-2l-2-1-1 1c-2-1-3-2-3-3l1-1-1-2Z"/></symbol>
+  </svg>
+  <noscript><p class="noscript-note">Activa JavaScript para explorar los videos y cambiar el idioma. Puedes escribirme con los enlaces de abajo. / Enable JavaScript to explore the videos and switch languages.</p></noscript>
+</body>
+</html>

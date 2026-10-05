@@ -1,0 +1,153 @@
+{
+  "checks": [
+    {
+      "name": "three actual videos",
+      "pass": true
+    },
+    {
+      "name": "filter beauty",
+      "pass": true
+    },
+    {
+      "name": "video beauty plays",
+      "pass": true
+    },
+    {
+      "name": "video beauty audio track",
+      "pass": true
+    },
+    {
+      "name": "video closes",
+      "pass": true
+    },
+    {
+      "name": "filter recommendations",
+      "pass": true
+    },
+    {
+      "name": "video recommendations plays",
+      "pass": true
+    },
+    {
+      "name": "video recommendations audio track",
+      "pass": true
+    },
+    {
+      "name": "video closes",
+      "pass": true
+    },
+    {
+      "name": "filter vlogs",
+      "pass": true
+    },
+    {
+      "name": "video vlogs plays",
+      "pass": true
+    },
+    {
+      "name": "video vlogs audio track",
+      "pass": true
+    },
+    {
+      "name": "video closes",
+      "pass": true
+    },
+    {
+      "name": "English",
+      "pass": true
+    },
+    {
+      "name": "photo carousel",
+      "pass": true
+    },
+    {
+      "name": "photo opens",
+      "pass": true
+    },
+    {
+      "name": "photo closes and restores focus",
+      "pass": true
+    },
+    {
+      "name": "service disclosure",
+      "pass": true
+    },
+    {
+      "name": "instagram-link destination",
+      "pass": true
+    },
+    {
+      "name": "tiktok-link destination",
+      "pass": true
+    },
+    {
+      "name": "whatsapp-link destination",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 360",
+      "pass": true
+    },
+    {
+      "name": "photos load 360",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 390",
+      "pass": true
+    },
+    {
+      "name": "photos load 390",
+      "pass": true
+    },
+    {
+      "name": "mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "mobile menu closes",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 768",
+      "pass": true
+    },
+    {
+      "name": "photos load 768",
+      "pass": true
+    },
+    {
+      "name": "no document overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "photos load 1440",
+      "pass": true
+    },
+    {
+      "name": "reduced motion",
+      "pass": true
+    },
+    {
+      "name": "reduced motion no animations",
+      "pass": true
+    },
+    {
+      "name": "editor persists sample metrics",
+      "pass": true
+    },
+    {
+      "name": "editor hides metrics",
+      "pass": true
+    },
+    {
+      "name": "editor reset restores public follower count",
+      "pass": true
+    },
+    {
+      "name": "no runtime or resource errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
